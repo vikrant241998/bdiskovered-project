@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav-right{
+    width: calc(100% - 288px); 
+  }
+  
+  .dot-icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    flex-direction: column;
+  }
+  
+  /* .dot-span{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ffc107;
+  } */
+  
+  
+  
+  .img-icon{
+    width: 300px;
+    height: 50px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .img-span{
+    width: 7px;
+      height: 7px;
+      background-color: #1bcfb4;
+      border-radius: 50%;
+      margin-left: -5px;
+      margin-top: 13px;
+  }
+  
+  .img-profile{
+    width: 35px;
+    border-radius: 50%;
+  }
+  
+  .aero{
+    font-size: 14px;
+      font-weight: 600;
+      margin-top: -20px;
+      color: #9c9fa6;
+      position: relative;
+      top: -2px;
+      left: 3px;
+  }
+  
+  
+  @media only screen and (max-width: 990px) {
+    .DehazeIcon-icon{
+      position: absolute;
+      right: 1px;
+  
+    }
+  }
+  
+  @media only screen and (max-width: 890px){
+    .SearchIcon-icon{
+      display: none;
+    }
+  }
+  
+    @media only screen and (max-width: 770px){
+  .SearchIcon-icon{
+    visibility: hidden;
+  }
+  .input-search{
+    visibility: hidden;
+  }
+  
+  .nav-left-box{
+    display: none;
+  }
+  .nav-left{
+    width: 10px;
+  }
+  .nav-right{
+    width: 100%;
+    
+  }
+    }
